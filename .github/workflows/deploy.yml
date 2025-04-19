@@ -37,4 +37,4 @@ jobs: # 构建的任务，一个工作流有多个构建任务，
           access_token: ${{ secrets.access_token }}
           branch: front
           # 指定发布的打包后的文件
-          folder: ./dist/index.html
+          folder: dist
