@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  * {
+    box-sizing: border-box;
+    font-family:
+      -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+      'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+li {
+  list-style: none;
+}
+
+// 上传回显的图片自适应展示
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.g-flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.g-flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.g-flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.g-flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.g-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*滚动条*/
+::-webkit-scrollbar {
+  width: 8px;
+  /*对垂直流动条有效*/
+  height: 8px;
+  /*对水平流动条有效*/
+}
+
+/*滚动条轨道*/
+::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+/*滑块*/
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #dbdbdb;
+}
+
+/*两端按钮*/
+::-webkit-scrollbar-button {
+  display: none;
+}
