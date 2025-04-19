@@ -27,6 +27,9 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'),
     },
   },
+  build: {
+    assetsDir: 'WTDTozonFront',
+  },
   server: {
     host: '0.0.0.0',
     port: 9999,
